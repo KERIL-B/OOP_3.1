@@ -1,0 +1,1226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PieChart.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.PieChartDelegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости PieChart</summary>
+        </member>
+        <member name="T:PieChart.Fakes.ShimPieChartUC">
+            <summary>Тип оболочки совместимости для PieChart.PieChartUC</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.#ctor(PieChart.PieChartUC)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.ComponentModel.IComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.ShimPieChartUC.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.Constructor">
+            <summary>Задает оболочка совместимости PieChartUC.PieChartUC()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.CreateListOfDouble">
+            <summary>Задает оболочка совместимости PieChartUC.Create(List`1&lt;Double&gt; values)</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.DisposeBoolean">
+            <summary>Задает оболочка совместимости PieChartUC.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.InitializeComponent">
+            <summary>Задает оболочка совместимости PieChartUC.InitializeComponent()</summary>
+        </member>
+        <member name="T:PieChart.Fakes.ShimPieChartUC.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.AllInstances.CreateListOfDouble">
+            <summary>Задает оболочка совместимости PieChartUC.Create(List`1&lt;Double&gt; values)</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.AllInstances.DisposeBoolean">
+            <summary>Задает оболочка совместимости PieChartUC.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:PieChart.Fakes.ShimPieChartUC.AllInstances.InitializeComponent">
+            <summary>Задает оболочка совместимости PieChartUC.InitializeComponent()</summary>
+        </member>
+        <member name="T:PieChart.Fakes.StubPieChartUC">
+            <summary>Тип заглушки PieChart.PieChartUC</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AdjustFormScrollbars(System.Boolean)">
+            <summary>Задает заглушка ContainerControl.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AdjustFormScrollbarsBoolean">
+            <summary>Задает stub ContainerControl.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AllowDropGet">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AllowDropSetBoolean">
+            <summary>Задает stub Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AnchorGet">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AnchorSetAnchorStyles">
+            <summary>Задает stub Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAllowDrop">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.AllowDrop как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAnchor">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Anchor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAutoScroll">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.AutoScroll как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAutoScrollOffset">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.AutoScrollOffset как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAutoSize">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.AutoSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToAutoValidate">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.AutoValidate как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToBackColor">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.BackColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToBackgroundImage">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.BackgroundImage как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.BackgroundImageLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToBindingContext">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.BindingContext как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToContextMenu">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.ContextMenu как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToContextMenuStrip">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.ContextMenuStrip как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToCursor">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Cursor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToDock">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Dock как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToDoubleBuffered">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.DoubleBuffered как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToFont">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Font как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToForeColor">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.ForeColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToImeModeBase">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.ImeModeBase как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToMaximumSize">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.MaximumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToMinimumSize">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.MinimumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToRightToLeft">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.RightToLeft как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToSite">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Site как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.AttachBackingFieldToText">
+            <summary>Присоединение делегатов для эмуляции StubPieChartUC.Text как свойства с резервным полем.</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoScrollGet">
+            <summary>Задает stub ScrollableControl.get_AutoScroll()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoScrollOffsetGet">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoScrollOffsetSetPoint">
+            <summary>Задает stub Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoScrollSetBoolean">
+            <summary>Задает stub ScrollableControl.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoSizeGet">
+            <summary>Задает stub UserControl.get_AutoSize()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoSizeSetBoolean">
+            <summary>Задает stub UserControl.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoValidateGet">
+            <summary>Задает stub UserControl.get_AutoValidate()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.AutoValidateSetAutoValidate">
+            <summary>Задает stub UserControl.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackColorGet">
+            <summary>Задает stub Control.get_BackColor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackColorSetColor">
+            <summary>Задает stub Control.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackgroundImageGet">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackgroundImageLayoutGet">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackgroundImageLayoutSetImageLayout">
+            <summary>Задает stub Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BackgroundImageSetImage">
+            <summary>Задает stub Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BindingContextGet">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.BindingContextSetBindingContext">
+            <summary>Задает stub ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CanEnableImeGet">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CanRaiseEventsGet">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ContextMenuGet">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ContextMenuSetContextMenu">
+            <summary>Задает stub Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ContextMenuStripGet">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ContextMenuStripSetContextMenuStrip">
+            <summary>Задает stub Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.CreateAccessibilityInstance">
+            <summary>Задает заглушка Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CreateAccessibilityInstance01">
+            <summary>Задает stub Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.CreateControlsInstance">
+            <summary>Задает заглушка Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CreateControlsInstance01">
+            <summary>Задает stub Control.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.CreateHandle">
+            <summary>Задает заглушка Control.CreateHandle()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CreateHandle01">
+            <summary>Задает stub Control.CreateHandle()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CreateParamsGet">
+            <summary>Задает stub UserControl.get_CreateParams()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CursorGet">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.CursorSetCursor">
+            <summary>Задает stub Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefWndProcMessageRef">
+            <summary>Задает stub Control.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultCursorGet">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultImeModeGet">
+            <summary>Задает stub Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultMarginGet">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultMaximumSizeGet">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultMinimumSizeGet">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultPaddingGet">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DefaultSizeGet">
+            <summary>Задает stub UserControl.get_DefaultSize()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.DestroyHandle">
+            <summary>Задает заглушка Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DestroyHandle01">
+            <summary>Задает stub Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DisplayRectangleGet">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.Dispose(System.Boolean)">
+            <summary>Задает заглушка PieChartUC.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DisposeBoolean">
+            <summary>Задает stub PieChartUC.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DockGet">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DockSetDockStyle">
+            <summary>Задает stub Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DoubleBufferedGet">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.DoubleBufferedSetBoolean">
+            <summary>Задает stub Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.FocusedGet">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.FontGet">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.FontSetFont">
+            <summary>Задает stub Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ForeColorGet">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ForeColorSetColor">
+            <summary>Задает stub Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.GetAccessibilityObjectById(System.Int32)">
+            <summary>Задает заглушка Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.GetAccessibilityObjectByIdInt32">
+            <summary>Задает stub Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.GetPreferredSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.GetPreferredSizeSize">
+            <summary>Задает stub Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Задает stub Control.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.GetService(System.Type)">
+            <summary>Задает заглушка Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.GetServiceType">
+            <summary>Задает stub Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ImeModeBaseGet">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ImeModeBaseSetImeMode">
+            <summary>Задает stub Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.InitLayout">
+            <summary>Задает заглушка Control.InitLayout()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.InitLayout01">
+            <summary>Задает stub Control.InitLayout()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubPieChartUC</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.IsInputChar(System.Char)">
+            <summary>Задает заглушка Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.IsInputCharChar">
+            <summary>Задает stub Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.IsInputKeyKeys">
+            <summary>Задает stub Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.LayoutEngineGet">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.MaximumSizeGet">
+            <summary>Задает stub Control.get_MaximumSize()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.MaximumSizeSetSize">
+            <summary>Задает stub Control.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.MinimumSizeGet">
+            <summary>Задает stub Control.get_MinimumSize()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.MinimumSizeSetSize">
+            <summary>Задает stub Control.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Задает заглушка Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.NotifyInvalidateRectangle">
+            <summary>Задает stub Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnAutoSizeChangedEventArgs">
+            <summary>Задает stub Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnAutoValidateChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Задает stub Control.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnCausesValidationChangedEventArgs">
+            <summary>Задает stub Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Задает заглушка Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnChangeUICuesUICuesEventArgs">
+            <summary>Задает stub Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnClickEventArgs">
+            <summary>Задает stub Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnClientSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnClientSizeChangedEventArgs">
+            <summary>Задает stub Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnContextMenuChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnContextMenuChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnContextMenuStripChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnControlAddedControlEventArgs">
+            <summary>Задает stub Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnControlRemovedControlEventArgs">
+            <summary>Задает stub Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnCreateControl">
+            <summary>Задает заглушка UserControl.OnCreateControl()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnCreateControl01">
+            <summary>Задает stub UserControl.OnCreateControl()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnCursorChangedEventArgs">
+            <summary>Задает stub Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDockChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDockChangedEventArgs">
+            <summary>Задает stub Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDoubleClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDoubleClickEventArgs">
+            <summary>Задает stub Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDragDropDragEventArgs">
+            <summary>Задает stub Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDragEnterDragEventArgs">
+            <summary>Задает stub Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDragLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDragLeaveEventArgs">
+            <summary>Задает stub Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnDragOverDragEventArgs">
+            <summary>Задает stub Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnEnter(System.EventArgs)">
+            <summary>Задает заглушка Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnEnterEventArgs">
+            <summary>Задает stub Control.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnFontChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnFontChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Задает заглушка Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Задает stub Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnGotFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnGotFocusEventArgs">
+            <summary>Задает stub Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnHandleCreated(System.EventArgs)">
+            <summary>Задает заглушка Control.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnHandleCreatedEventArgs">
+            <summary>Задает stub Control.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnHandleDestroyed(System.EventArgs)">
+            <summary>Задает заглушка Control.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnHandleDestroyedEventArgs">
+            <summary>Задает stub Control.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Задает заглушка Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnHelpRequestedHelpEventArgs">
+            <summary>Задает stub Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnImeModeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnImeModeChangedEventArgs">
+            <summary>Задает stub Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Задает заглушка Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnInvalidatedInvalidateEventArgs">
+            <summary>Задает stub Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnKeyDownKeyEventArgs">
+            <summary>Задает stub Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Задает заглушка Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnKeyPressKeyPressEventArgs">
+            <summary>Задает stub Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnKeyUpKeyEventArgs">
+            <summary>Задает stub Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Задает заглушка ContainerControl.OnLayout(LayoutEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnLayoutLayoutEventArgs">
+            <summary>Задает stub ContainerControl.OnLayout(LayoutEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnLeaveEventArgs">
+            <summary>Задает stub Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnLoad(System.EventArgs)">
+            <summary>Задает заглушка UserControl.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnLoadEventArgs">
+            <summary>Задает stub UserControl.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnLocationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnLocationChangedEventArgs">
+            <summary>Задает stub Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnLostFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnLostFocusEventArgs">
+            <summary>Задает stub Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMarginChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMarginChangedEventArgs">
+            <summary>Задает stub Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseCaptureChangedEventArgs">
+            <summary>Задает stub Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseDoubleClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка UserControl.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseDownMouseEventArgs">
+            <summary>Задает stub UserControl.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseEnter(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseEnterEventArgs">
+            <summary>Задает stub Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseHover(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseHoverEventArgs">
+            <summary>Задает stub Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseLeaveEventArgs">
+            <summary>Задает stub Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseMoveMouseEventArgs">
+            <summary>Задает stub Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseUpMouseEventArgs">
+            <summary>Задает stub Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMouseWheelMouseEventArgs">
+            <summary>Задает stub ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnMove(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnMoveEventArgs">
+            <summary>Задает stub Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Задает заглушка Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnNotifyMessageMessage">
+            <summary>Задает stub Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnPaddingChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnPaddingChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnPaintBackgroundPaintEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnPaintPaintEventArgs">
+            <summary>Задает stub Control.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentCursorChangedEventArgs">
+            <summary>Задает stub Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentFontChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentFontChangedEventArgs">
+            <summary>Задает stub Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentRightToLeftChangedEventArgs">
+            <summary>Задает stub Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnParentVisibleChangedEventArgs">
+            <summary>Задает stub Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Задает заглушка Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Задает stub Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnPrintPaintEventArgs">
+            <summary>Задает stub Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Задает заглушка Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Задает stub Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnRegionChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnRegionChangedEventArgs">
+            <summary>Задает stub Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnResize(System.EventArgs)">
+            <summary>Задает заглушка UserControl.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnResizeEventArgs">
+            <summary>Задает stub UserControl.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnRightToLeftChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnScrollScrollEventArgs">
+            <summary>Задает stub ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnSizeChangedEventArgs">
+            <summary>Задает stub Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnStyleChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnStyleChangedEventArgs">
+            <summary>Задает stub Control.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnSystemColorsChangedEventArgs">
+            <summary>Задает stub Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnTabIndexChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnTabIndexChangedEventArgs">
+            <summary>Задает stub Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnTabStopChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnTabStopChangedEventArgs">
+            <summary>Задает stub Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnTextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnTextChangedEventArgs">
+            <summary>Задает stub Control.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnValidated(System.EventArgs)">
+            <summary>Задает заглушка Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnValidatedEventArgs">
+            <summary>Задает stub Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnValidatingCancelEventArgs">
+            <summary>Задает stub Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.OnVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.OnVisibleChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.PreProcessMessageMessageRef">
+            <summary>Задает stub Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Задает заглушка ContainerControl.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessCmdKeyMessageRefKeys">
+            <summary>Задает stub ContainerControl.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessDialogChar(System.Char)">
+            <summary>Задает заглушка ContainerControl.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessDialogCharChar">
+            <summary>Задает stub ContainerControl.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка ContainerControl.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessDialogKeyKeys">
+            <summary>Задает stub ContainerControl.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessKeyEventArgsMessageRef">
+            <summary>Задает stub Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessKeyMessageMessageRef">
+            <summary>Задает stub Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessKeyPreviewMessageRef">
+            <summary>Задает stub Control.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessMnemonic(System.Char)">
+            <summary>Задает заглушка ContainerControl.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessMnemonicChar">
+            <summary>Задает stub ContainerControl.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ProcessTabKey(System.Boolean)">
+            <summary>Задает заглушка ContainerControl.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ProcessTabKeyBoolean">
+            <summary>Задает stub ContainerControl.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.Refresh">
+            <summary>Задает заглушка Control.Refresh()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.Refresh01">
+            <summary>Задает stub Control.Refresh()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetBackColor">
+            <summary>Задает заглушка Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetBackColor01">
+            <summary>Задает stub Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetCursor">
+            <summary>Задает заглушка Control.ResetCursor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetCursor01">
+            <summary>Задает stub Control.ResetCursor()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetFont">
+            <summary>Задает заглушка Control.ResetFont()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetFont01">
+            <summary>Задает stub Control.ResetFont()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetForeColor">
+            <summary>Задает заглушка Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetForeColor01">
+            <summary>Задает stub Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetRightToLeft">
+            <summary>Задает заглушка Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetRightToLeft01">
+            <summary>Задает stub Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ResetText">
+            <summary>Задает заглушка Control.ResetText()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ResetText01">
+            <summary>Задает stub Control.ResetText()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.RightToLeftGet">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.RightToLeftSetRightToLeft">
+            <summary>Задает stub Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ScaleChildrenGet">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка ScrollableControl.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ScaleControlSizeFBoundsSpecified">
+            <summary>Задает stub ScrollableControl.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ScaleCore(System.Single,System.Single)">
+            <summary>Задает заглушка ScrollableControl.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ScaleCoreSingleSingle">
+            <summary>Задает stub ScrollableControl.ScaleCore(Single dx, Single dy)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Задает заглушка ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ScrollToControlControl">
+            <summary>Задает stub ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.Select(System.Boolean,System.Boolean)">
+            <summary>Задает заглушка ContainerControl.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SelectBooleanBoolean">
+            <summary>Задает stub ContainerControl.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Задает stub Control.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Задает заглушка Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SetClientSizeCoreInt32Int32">
+            <summary>Задает stub Control.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.SetVisibleCore(System.Boolean)">
+            <summary>Задает заглушка Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SetVisibleCoreBoolean">
+            <summary>Задает stub Control.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ShowFocusCuesGet">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ShowKeyboardCuesGet">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SiteGet">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SiteSetISite">
+            <summary>Задает stub Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.SizeFromClientSizeSize">
+            <summary>Задает stub Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.TextGet">
+            <summary>Задает stub UserControl.get_Text()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.TextSetString">
+            <summary>Задает stub UserControl.set_Text(String value)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ToString">
+            <summary>Задает заглушка Component.ToString()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ToString01">
+            <summary>Задает stub Component.ToString()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.UpdateDefaultButton">
+            <summary>Задает заглушка ContainerControl.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.UpdateDefaultButton01">
+            <summary>Задает stub ContainerControl.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ValidateChildren">
+            <summary>Задает заглушка UserControl.ValidateChildren()</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Задает заглушка UserControl.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ValidateChildren01">
+            <summary>Задает stub UserControl.ValidateChildren()</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.ValidateChildrenValidationConstraints">
+            <summary>Задает stub UserControl.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:PieChart.Fakes.StubPieChartUC.WndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка UserControl.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:PieChart.Fakes.StubPieChartUC.WndProcMessageRef">
+            <summary>Задает stub UserControl.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.AllowDrop">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Anchor">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.AutoScroll">
+            <summary>Задает stub ScrollableControl.get_AutoScroll()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.AutoScrollOffset">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.AutoSize">
+            <summary>Задает stub UserControl.get_AutoSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.AutoValidate">
+            <summary>Задает stub UserControl.get_AutoValidate()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.BackColor">
+            <summary>Задает stub Control.get_BackColor()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.BackgroundImage">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.BackgroundImageLayout">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.BindingContext">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.CanEnableIme">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.CanRaiseEvents">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ContextMenu">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ContextMenuStrip">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.CreateParams">
+            <summary>Задает stub UserControl.get_CreateParams()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Cursor">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultCursor">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultImeMode">
+            <summary>Задает stub Control.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultMargin">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultMaximumSize">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultMinimumSize">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultPadding">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DefaultSize">
+            <summary>Задает stub UserControl.get_DefaultSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DisplayRectangle">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Dock">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.DoubleBuffered">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Focused">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Font">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ForeColor">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ImeModeBase">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.LayoutEngine">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.MaximumSize">
+            <summary>Задает stub Control.get_MaximumSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.MinimumSize">
+            <summary>Задает stub Control.get_MinimumSize()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.RightToLeft">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ScaleChildren">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ShowFocusCues">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.ShowKeyboardCues">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Site">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="P:PieChart.Fakes.StubPieChartUC.Text">
+            <summary>Задает stub UserControl.get_Text()</summary>
+        </member>
+    </members>
+</doc>

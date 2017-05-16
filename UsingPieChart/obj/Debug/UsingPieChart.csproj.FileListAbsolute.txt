@@ -1,0 +1,11 @@
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\bin\Debug\UsingPieChart.exe.config
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\bin\Debug\UsingPieChart.exe
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\bin\Debug\UsingPieChart.pdb
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\bin\Debug\PieChart.dll
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\bin\Debug\PieChart.pdb
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.csprojResolveAssemblyReference.cache
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.Properties.Resources.resources
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.csproj.GenerateResource.Cache
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.exe
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.pdb
+E:\vs2012\1progs\4thSemestr\UsingPieChart\UsingPieChart\obj\Debug\UsingPieChart.Form1.resources
